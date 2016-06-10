@@ -1,0 +1,14 @@
+package cl.curso.java.builder;
+
+public class BuilderAutoToyota extends BuilderAuto {
+
+	@Override
+	public Auto construir() {
+		
+		
+		
+		
+		return null;
+	}
+
+}

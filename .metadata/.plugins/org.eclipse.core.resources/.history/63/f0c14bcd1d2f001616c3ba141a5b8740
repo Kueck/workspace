@@ -1,0 +1,8 @@
+package cl.curso.java.builder;
+
+public class GPS {
+
+	private String os;
+	private String version;
+	
+}

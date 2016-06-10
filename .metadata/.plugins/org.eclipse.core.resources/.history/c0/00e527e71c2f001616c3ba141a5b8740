@@ -1,0 +1,13 @@
+package cl.curso.java.builder;
+
+import java.util.List;
+
+public class Auto {
+
+	private String marca;
+	private String modelo;
+	private List<Ruedas> ruedas;
+	private GPS gps;
+	
+	
+}
