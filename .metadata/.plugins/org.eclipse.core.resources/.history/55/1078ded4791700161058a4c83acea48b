@@ -1,0 +1,108 @@
+package guia8.ejercicio2;
+
+public class Fecha {
+
+	private int dia;
+	private int mes;
+	private int anno;
+	private String MESES[]={"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
+	
+	public String[] getMESES() {
+		return MESES;
+	}
+
+	public void setMESES(String[] mESES) {
+		MESES = mESES;
+	}
+
+	public Fecha(){	
+		this.dia=23;
+		this.mes=5;
+		this.anno=1995;
+	}
+	
+	public Fecha(int dia,int mes,int anno){
+		this.dia=dia;
+		this.mes=mes;
+		this.anno=anno;
+	}
+
+	public int getDia() {
+		return this.dia;
+	}
+
+	public void setDia(int dia) {
+		this.dia = dia;
+	}
+
+	public int getMes() {
+		return this.mes;
+	}
+
+	public void setMes(int mes) {
+		this.mes = mes;
+	}
+
+	public int getAnno() {
+		return this.anno;
+	}
+
+	public void setAnno(int anno) {
+		this.anno = anno;
+	}
+	
+	public boolean validarDia(){
+		if(this.getMes()==4 || this.getMes()==6 ||this.getMes()==9||this.getMes()==11)
+		{
+			if(this.dia>0 && this.dia<=30){
+				return true;
+			}
+		}else{
+			if(this.getMes()==2)
+			{
+				if(isBisiesto()){
+					if(this.getDia()>0 && this.getDia()<=29){
+						return true;
+					}else{
+						if(this.getDia()>0 && this.getDia()<=28){
+							return true;
+						}
+					}
+				}
+			}else{
+				if(this.getDia()>0 && this.getDia()<=31){
+					return true;
+				}
+			}
+			
+		}
+		return false;
+	}
+
+	public boolean isBisiesto(){
+		boolean bisiesto=false;
+		if(this.anno%4==0){
+			bisiesto=true;
+		}
+		if(this.anno%100==0){
+			bisiesto=false;
+		}
+		if(this.anno%400==0){
+			bisiesto=true;
+		}
+		return bisiesto;
+	}
+	
+	public boolean validarMes(){
+		if(this.mes>0 && this.mes<=12)
+			return true;
+		return false;
+	}
+	
+	public String getNombreMes(int x){
+		return this.getMESES()[x-1];
+	}
+
+	
+	
+}

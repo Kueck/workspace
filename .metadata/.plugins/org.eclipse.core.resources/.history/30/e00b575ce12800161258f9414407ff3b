@@ -1,0 +1,28 @@
+package cl.curso.java.ejemplos.ejemplo_hashMap;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
+public class Programa {
+
+	public static void main(String[] args) {
+
+		
+	String x= "x, x x x x y, j k l m n f";
+	Texto text=new Texto(x);
+	
+	HashMap hashMap=(HashMap)text.mapear();
+	Iterator<Entry<String,Integer>> it=hashMap.entrySet().iterator();
+	
+	System.out.println(text.mapear().size());
+	System.out.println(((HashMap)text.mapear()).get("x"));
+	
+	while(it.hasNext()){
+		Entry<String,Integer> e=it.next();
+		System.out.println(e.getKey()+ ""+e.getValue());
+	}
+	
+	}
+
+}

@@ -1,0 +1,5 @@
+package cl.curso.java.guias.guia11_1.ejercicio1;
+
+public class RetirarDineroThread extends Thread {
+
+}

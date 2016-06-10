@@ -1,0 +1,18 @@
+package cl.curso.java.ejemplos.ejemplo_hashMap;
+
+import java.util.HashMap;
+
+public class Programa {
+
+	public static void main(String[] args) {
+
+		
+	String x= "x, x x x x y, j k l m n f";
+	Texto text=new Texto(x);
+	
+	System.out.println(text.mapear().size());
+	System.out.println(((HashMap)text.mapear()).get("x"));
+		
+	}
+
+}

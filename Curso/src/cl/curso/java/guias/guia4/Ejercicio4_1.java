@@ -1,0 +1,48 @@
+package cl.curso.java.guias.guia4;
+import java.util.Scanner;
+
+import javax.swing.SingleSelectionModel;
+import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
+
+public class Ejercicio4_1 {
+
+	public static void main(String[] args) {
+		int cita=0;
+		int totalTratamiento=0;
+		int costoCita=0;
+		Scanner in=new Scanner(System.in);
+		
+		
+		System.out.println("ingrese el numero de cita al que se presenta");
+		while(true){
+		cita=in.nextInt();
+		
+		
+		for (int i = 1; i <= cita; i++) {
+			if(i<=3){
+				totalTratamiento=totalTratamiento+200000;
+				costoCita=200000;
+			}else{
+				if(i>3 && i <6){
+					totalTratamiento=totalTratamiento+150000;
+					costoCita=150000;
+				}else{
+					if(i>5&& i<9){
+						totalTratamiento=totalTratamiento+100000;
+						costoCita=100000;
+					}else{
+						totalTratamiento=totalTratamiento+50000;
+						costoCita=50000;
+					}
+				}
+			}
+		}
+		System.out.println("______________________");
+		System.out.println("numero de cita:"+cita);
+		System.out.println("costo de esta cita:"+costoCita);
+		System.out.println("total del tratamiento:"+totalTratamiento);
+		}
+		
+	}
+
+}

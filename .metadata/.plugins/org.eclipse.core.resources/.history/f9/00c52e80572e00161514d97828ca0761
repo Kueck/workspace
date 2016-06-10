@@ -1,0 +1,16 @@
+package cl.curso.java.abs_factory.abstract_factory;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    	String platform=System.getProperty("on.name").toLowerCase();
+    	System.out.println(platform);
+    	
+    }
+}

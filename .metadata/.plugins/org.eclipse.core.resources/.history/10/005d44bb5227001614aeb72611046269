@@ -1,0 +1,26 @@
+package cl.curso.java.ejemplos.thread;
+
+import javax.swing.JOptionPane;
+
+public class Autodestruccion implements Runnable {
+
+	public static void main(String[] args) {
+
+		while(true){
+			
+			new Thread(new Autodestruccion()).start();;
+			
+		}
+
+	}
+
+	@Override
+	public void run() {
+
+		while(true){
+			JOptionPane.showMessageDialog(null, "AHHHHHHHHHH!!!!");
+		}
+		
+	}
+
+}

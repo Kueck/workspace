@@ -1,0 +1,10 @@
+package cl.curso.java.guias.guia12;
+
+public class CarroDeCompra {
+
+	private Usuario usuario;
+	
+	
+	
+	
+}

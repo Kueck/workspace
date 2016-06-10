@@ -1,0 +1,42 @@
+package cl.curso.java.control_cinco.cpoblete.ejercicio2;
+
+public class Empleado extends Persona {
+
+	private Departamento departamento;
+	private int salario;
+
+	
+	public Empleado() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Empleado(String rut, String nombre, String apellido, int edad,Departamento departamento, int salario) {
+		super(rut, nombre, apellido, edad);
+		this.departamento = departamento;
+		this.salario = salario;
+		}
+	
+	public Departamento getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(Departamento departamento) {
+		this.departamento = departamento;
+	}
+
+	public int getSalario() {
+		return salario;
+	}
+
+	public void setSalario(int salario) {
+		this.salario = salario;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Empleado)
+			return this.getRut().equals(((Empleado) obj).getRut());
+		return false;
+	}
+
+}

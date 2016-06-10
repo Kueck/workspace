@@ -1,0 +1,79 @@
+1463497574467	Delete element
+1463497577985	Delete element
+1463497617993	Copy packages
+1463497638599	Delete element
+1463497642465	Delete element
+1463497645457	Delete element
+1463497648430	Delete element
+1463497651723	Delete element
+1463497655320	Delete element
+1463497752994	Move compilation unit
+1463497776224	Move compilation unit
+1463497798918	Move compilation unit
+1463497819805	Move compilation unit
+1463497841996	Move compilation unit
+1463497862827	Move compilation unit
+1463497867921	Delete elements
+1463505419458	Encapsulate field 'descripcion'
+1463505453314	Encapsulate field 'nombre'
+1463505482246	Encapsulate field 'nombre'
+1463505490946	Encapsulate field 'tipoTienda'
+1463505502856	Encapsulate field 'productos'
+1463505522872	Encapsulate field 'nombre'
+1463505530909	Encapsulate field 'tipoDeArticulo'
+1463505540857	Encapsulate field 'cantidad'
+1463505550731	Encapsulate field 'precio'
+1463505620892	Encapsulate field 'nombre'
+1463505633445	Encapsulate field 'edad'
+1463505654198	Encapsulate field 'nombre'
+1463505661265	Encapsulate field 'profesorJefe'
+1463505666596	Encapsulate field 'alumnos'
+1463505685065	Encapsulate field 'descripcion'
+1463505689987	Encapsulate field 'identificador'
+1463505695443	Encapsulate field 'nombre'
+1463505705978	Encapsulate field 'nombre'
+1463505711535	Encapsulate field 'descripcion'
+1463505716240	Encapsulate field 'permisos'
+1463505728034	Encapsulate field 'perfil'
+1463505733813	Encapsulate field 'contraseña'
+1463505738771	Encapsulate field 'nombreUsuario'
+1463505801305	Encapsulate field 'nombre'
+1463505811012	Encapsulate field 'numero'
+1463505816482	Encapsulate field 'apellido'
+1463505830146	Encapsulate field 'codigo'
+1463505835333	Encapsulate field 'marca'
+1463505839438	Encapsulate field 'tipo'
+1463505845168	Encapsulate field 'patente'
+1463505870414	Encapsulate field 'modelo'
+1463505886163	Encapsulate field 'kilometraje'
+1463505891185	Encapsulate field 'precioDeVenta'
+1463505896373	Encapsulate field 'cantidadUnidades'
+1463505971726	Encapsulate field 'nombre'
+1463505977438	Encapsulate field 'semanasTrabajadas'
+1463505982243	Encapsulate field 'cantArticulosVendidos'
+1463505985188	Encapsulate field 'valorArticuloVendido'
+1463506000137	Encapsulate field 'nombre'
+1463506003558	Encapsulate field 'cantGanados'
+1463506006257	Encapsulate field 'cantPerdidos'
+1463506009240	Encapsulate field 'cantEmpatados'
+1463506013934	Encapsulate field 'cantJugados'
+1463506017235	Encapsulate field 'cantPuntos'
+1463506027835	Encapsulate field 'nombre'
+1463506037016	Encapsulate field 'autor'
+1463506041828	Encapsulate field 'genero'
+1463506052042	Encapsulate field 'canciones'
+1463506061785	Encapsulate field 'nombre'
+1463506065520	Encapsulate field 'autor'
+1463506068792	Encapsulate field 'editorial'
+1463506071988	Encapsulate field 'isbn'
+1463506079174	Delete element
+1463578853873	Delete element
+1463584194235	Delete element
+1463665603299	Delete element
+1463667370153	Encapsulate field 'estado'
+1463668262878	Delete element
+1463668545890	Encapsulate field 'estado'
+1463673281308	Copy package
+1463673288853	Delete element
+1463675273541	Delete element
+1463761368278	Move compilation unit

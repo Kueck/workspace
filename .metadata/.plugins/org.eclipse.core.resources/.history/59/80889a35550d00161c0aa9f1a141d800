@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Ejercicio6_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		String isbn;
+		int numIsbn;
+		char dver;
+		int numDver;
+		
+		System.out.println("ingrese el isbn de su libro(xxxxxxxxx-x)");
+		isbn=in.next();
+		
+		numIsbn=Integer.parseInt(isbn.split("-")[0]);
+		dver=isbn.split("-")[1].charAt(0);
+		
+		System.out.println("dver:"+dver);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package cl.curso.java.guias.guia10.ejercicio3;
+
+public class Revista {
+
+	private int numeroEdicion;
+	private String editorial;
+	private String nombre;
+	
+}

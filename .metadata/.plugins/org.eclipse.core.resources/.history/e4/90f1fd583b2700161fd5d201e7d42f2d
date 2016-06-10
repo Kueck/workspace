@@ -1,0 +1,5 @@
+package cl.curso.java.ejemplos.usuario_playlist_cancion;
+
+public class Cancion {
+
+}

@@ -1,0 +1,128 @@
+package guia8.ejercicio2;
+
+public class Fecha {
+
+	private int dia;
+	private int mes;
+	private int anno;
+	private String MESES[]={"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
+	
+	public Fecha(){	
+		this.dia=23;
+		this.mes=5;
+		this.anno=1995;
+	}
+	
+	public Fecha(int dia,int mes,int anno){
+		
+		if(mes>0 && mes<13)
+		{
+		this.mes = mes;   //mes
+		}else{
+			System.err.println("el mes debe se menor a 13 y mayor a 0,se ha mantenido el valor por defecto");
+		}
+		
+		
+		this.anno=anno;
+		
+		this.dia=dia;
+		if(!this.validarDia()){
+			System.err.println("el dia ingresado no corresponde al mes y/o año indicado, se mantiene el valor por defecto");
+			this.dia=0;
+		}
+	}
+
+	public int getDia() {
+		return this.dia;
+	}
+
+	public void setDia(int dia) {
+		int aux=this.dia;
+		this.dia = dia;
+		if(!this.validarDia()){
+			System.err.println("el dia ingresado no corresponde al mes y/o año indicado, se mantiene el valor anterior");
+			this.dia=aux;
+		}
+	}
+
+	public int getMes() {
+		return this.mes;
+	}
+
+	public void setMes(int mes) {
+		if(mes>0 && mes<13)
+		{
+		this.mes = mes;
+		}else{
+			System.err.println("el mes debe se menor a 13 y mayor a 0,se ha mantenido el valor anterior");
+		}
+		
+	}
+
+	public int getAnno() {
+		return this.anno;
+	}
+
+	public void setAnno(int anno) {
+		this.anno = anno;
+	}
+
+	public String getNombreMes(){
+		return this.getMESES()[this.getMes()-1];
+	}
+
+	public String[] getMESES() {
+		return MESES;
+	}
+
+	public void setMESES(String[] mESES) {
+		MESES = mESES;
+	}
+
+	public boolean validarDia(){
+		if(this.getMes()==4 || this.getMes()==6 ||this.getMes()==9||this.getMes()==11)
+		{
+			if(this.getDia()>0 && this.getDia()<=30){
+				return true;
+			}
+		}else{
+			if(this.getMes()==2)
+			{
+				if(isBisiesto()){
+					if(this.getDia()>0 && this.getDia()<=29){
+						return true;
+					}else{
+						if(this.getDia()>0 && this.getDia()<=28){
+							return true;
+						}
+					}
+				}
+			}else{
+				if(this.getDia()>0 && this.getDia()<=31){
+					return true;
+				}
+			}
+			
+		}
+		return false;
+	}
+
+	public boolean isBisiesto(){
+		boolean bisiesto=false;
+		if(this.anno%4==0){
+			bisiesto=true;
+		}
+		if(this.anno%100==0){
+			bisiesto=false;
+		}
+		if(this.anno%400==0){
+			bisiesto=true;
+		}
+		return bisiesto;
+	}
+	
+	public boolean validarMes(){	
+		return this.getMes()>0 && this.getMes()<13;
+	}
+	
+}

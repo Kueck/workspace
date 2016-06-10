@@ -1,0 +1,22 @@
+package guia8.ejercicio2;
+
+public class ProgramaFecha {
+
+	
+	public static void main(String[] args)
+	{
+		
+		Fecha f1=new Fecha(100,1,2016);
+		if(f1.isBisiesto())
+			System.out.println("1");		
+		if(f1.validarDia())
+			System.out.println("2");
+		if(f1.validarMes())
+			System.out.println("3");
+		
+		System.out.println(f1.getNombreMes());
+		
+		
+	}
+	
+}

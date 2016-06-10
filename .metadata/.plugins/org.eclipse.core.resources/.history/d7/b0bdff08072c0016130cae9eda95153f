@@ -1,0 +1,30 @@
+package javaBaseDeDatos;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JOptionPane;
+
+public class Programa {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		String nombre;
+		String rut;
+		
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection conexion= DriverManager.getConnection("jdbc:mysql://192.168.0.124:3306/curso?useSSL=false","alumnos","java123");
+		Statement st =conexion.createStatement();
+		
+		rut=JOptionPane.showInputDialog("ingrese rut");
+		nombre=JOptionPane.showInputDialog("ingrese nombre");
+		
+//		st.executeUpdate("INSERT INTO usuarios (nombre_usuario, password)"
+//				+"VALUES ('"+nombre+"','"+rut+"')");
+//		
+		st.executeUpdate("DELETE usuarios where usuarios.nombre_usuario='Camilo Poblete'");
+		
+	}
+	
+}

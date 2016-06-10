@@ -1,0 +1,17 @@
+package javaBaseDeDatos;
+
+public class ConexionException extends RuntimeException{
+
+	public ConexionException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ConexionException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+}

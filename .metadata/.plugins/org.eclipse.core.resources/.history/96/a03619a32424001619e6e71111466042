@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package cl.curso.java.control_cuatro.cpoblete.ejercicio6;
+
+/**
+ * @author Usuario
+ *
+ */
+public class SinStockException extends RuntimeException {
+
+}

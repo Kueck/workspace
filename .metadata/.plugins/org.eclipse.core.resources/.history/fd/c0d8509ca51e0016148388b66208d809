@@ -1,0 +1,24 @@
+package cl.curso.java.ejemplos.thread;
+
+public class Autodestruccion implements Runnable {
+
+	public static void main(String[] args) {
+
+		while(true){
+			
+			new Thread(new Autodestruccion());
+			
+		}
+
+	}
+
+	@Override
+	public void run() {
+
+		while(true){
+			System.out.println("AHHHH!!!");
+		}
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package cl.curso.java.ejemplos.arraylist_contacto_telefono;
+
+public class Telefono {
+
+}

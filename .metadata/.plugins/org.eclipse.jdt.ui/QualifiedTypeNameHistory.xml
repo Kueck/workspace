@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.beans.ConstructorProperties"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.awt.JobAttributes"/>
+<fullyQualifiedTypeName name="cl.curso.java.ejemplos.Motor"/>
+<fullyQualifiedTypeName name="cl.curso.java.ejemplos.cuentasBancarias.CuentaBancaria"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia8.ejercicio1.Reloj"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia8.ejercicio1.ApagarReloj"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11.RutNoValidoException"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11.Rut"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11.ejercicio2.CuentaBloqueada"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11.ejercicio2.AutenticacionException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11.ejercicio2.Usuario"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.DevolverLibroThread"/>
+<fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio6.Auto"/>
+<fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio6.SinStockException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.Libro"/>
+<fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.ReservarLibroThread"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio1.CuentaBancaria"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio1.RetirarDineroThread"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio1.DepositarDineroThread"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio2.Animal"/>
+<fullyQualifiedTypeName name="cl.curso.java.ejemplos.arraylist_contacto_telefono.Contacto"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cl.curso.java.ejemplos.arraylist_contacto_telefono.Telefono"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+<fullyQualifiedTypeName name="cl.curso.java.ejemplos.ejemplo_hashMap.Texto"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+</qualifiedTypeNameHistroy>

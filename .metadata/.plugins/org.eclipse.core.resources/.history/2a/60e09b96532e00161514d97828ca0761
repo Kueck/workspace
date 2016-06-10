@@ -1,0 +1,5 @@
+package cl.curso.java.singleton.singleton_app;
+
+public class Motor {
+
+}

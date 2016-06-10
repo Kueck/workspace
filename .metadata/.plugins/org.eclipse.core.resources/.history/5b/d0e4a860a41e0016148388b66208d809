@@ -1,0 +1,10 @@
+package cl.curso.java.ejemplos.thread;
+
+public class Autodestruccion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

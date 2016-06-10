@@ -1,0 +1,9 @@
+package cl.curso.java.control_cinco.cpoblete.ejercicio2;
+
+public class Programa {
+
+	Departamento d1= new Departamento("departamento 1", "descripcion departamento 1");
+	Empleado e1=new Empleado("1-9", "nombre1", "apellido1", 20, d1, 5000);
+	
+	
+}

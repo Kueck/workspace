@@ -1,0 +1,11 @@
+package cl.curso.java.guias.guia9.ejerciciosCreacionObjetos.ejercicio6;
+
+public class LibroTest {
+
+	public static void main(String[] args) {
+	
+		Libro l1=new Libro("nombre", "autor", "editorial", "0139119914");
+		System.out.println(l1.isIsbnCorrect());
+	}
+
+}

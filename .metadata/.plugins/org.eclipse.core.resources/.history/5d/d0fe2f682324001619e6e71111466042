@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package cl.curso.java.control_cuatro.cpoblete.ejercicio5;
+
+/**
+ * @author Usuario
+ *
+ */
+public class DevolverLibroThread extends Thread {
+
+}

@@ -1,0 +1,5 @@
+package ejemplo_dao;
+
+public class Usuario {
+
+}

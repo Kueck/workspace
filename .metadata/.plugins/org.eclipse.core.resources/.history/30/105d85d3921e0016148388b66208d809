@@ -1,0 +1,25 @@
+package cl.curso.java.ejemplos.thread;
+
+public class EjemploHilo extends Thread {
+
+	@Override
+	public void run() {
+
+		try {
+			sleep(1000);
+		} catch (InterruptedException e) {
+
+		}
+
+		System.out.println("el nombre del thread es:" + getName());
+
+	}
+	
+	public static void main(String args[]){
+		EjemploHilo thread=new EjemploHilo();
+		thread.start();
+		System.out.println("metodo main; el nombre del thread es: "+Thread.currentThread().getName());
+	}
+	
+
+}

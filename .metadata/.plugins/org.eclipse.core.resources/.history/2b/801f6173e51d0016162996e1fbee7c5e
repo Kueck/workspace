@@ -1,0 +1,20 @@
+package cl.curso.java.gui;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Programa {
+
+	public static void main(String[] args) throws InterruptedException {
+
+			Hilo hilo=new Hilo();
+			hilo.start();
+			
+			Thread thread=new Thread(new Ejecucion());
+			
+			System.out.println(" fin programa ");
+	
+		
+	}
+
+}

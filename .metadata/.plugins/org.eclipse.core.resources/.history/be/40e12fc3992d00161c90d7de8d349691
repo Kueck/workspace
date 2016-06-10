@@ -1,0 +1,31 @@
+package cl.curso.java.login_app;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+
+import javax.imageio.ImageIO;
+
+import com.github.sarxos.webcam.Webcam;
+
+public class WebCamService {
+
+	public static void capture(){
+		
+
+	    Webcam webcam = Webcam.getDefault();
+//	    webcam.setViewSize(WebcamResolution.VGA.getSize());
+//	    webcam.setViewSize(new Dimension(640,480));
+	    webcam.open();
+	    try {
+			ImageIO.write(webcam.getImage(), "PNG", new File("/users/usuario/"+new Date().getTime()+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    
+		
+	}
+	
+	
+}

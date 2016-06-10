@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Ejercicio6_3 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		int aprobado[];
+		int reprobados[];
+		int notas[];
+		int nota=0;
+		int alumnos=0;
+		
+		System.out.println("ingrese cantidad de alumnos");
+		alumnos=in.nextInt();
+		
+		
+		
+		
+		
+	}
+
+}

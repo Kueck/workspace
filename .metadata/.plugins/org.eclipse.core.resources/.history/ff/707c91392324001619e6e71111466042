@@ -1,0 +1,15 @@
+package cl.curso.java.control_cuatro.cpoblete.ejercicio5;
+
+/**
+ * @author CamiloPoblete
+ *
+ */
+public class ReservarLibroThread extends Thread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+	
+}

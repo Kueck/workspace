@@ -1,0 +1,5 @@
+package cl.curso.java.guias.guia12.ejercicio1;
+
+public class ProductoNoEncontradoException {
+
+}
