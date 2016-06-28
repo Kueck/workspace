@@ -1,0 +1,5 @@
+package cl.cage.core;
+
+public class Usuario {
+
+}

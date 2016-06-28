@@ -1,5 +1,0 @@
-package cl.curso.java.guias.guia11_1.ejercicio3;
-
-public class ReservarAsiento extends Thread {
-
-}

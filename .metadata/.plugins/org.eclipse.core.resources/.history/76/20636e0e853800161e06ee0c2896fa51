@@ -1,0 +1,61 @@
+package cl.cage.servlet;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+import cl.cage.core.AutenticacionException;
+import cl.cage.core.CuentaBloqueadaException;
+import cl.cage.core.Usuario;
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/login")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    private static final Logger LOGGER= Logger.getLogger(LoginServlet.class);   
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public LoginServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String nUsuario=(String)request.getParameter("nombre_usuario");
+		String pass=(String)request.getParameter("password");
+		
+		//usuario facade solo tiene metodos estaticos, el metodo login recibe un usuario
+		try{
+			//el metodo login recibe un usuario y lanza 2 tipos de excepciones, AutenticacionException y CuentaBloqueadaException
+			UsuarioFacade.login(new Usuario(nUsuario,pass,0)); //Usuario(Stirng nombre,Stirng pass,int intentos fallidos);
+			response.getWriter().println("login correcto");
+			LOGGER.info("inicio de sesion exitosa- usuario:"+nUsuario);
+		}catch(AutenticacionException ae){
+			response.getWriter().println(ae.getMessage());
+		}catch(CuentaBloqueadaException cbe){
+			response.getWriter().println(cbe.getMessage());
+		}catch(SQLException e){
+			response.getWriter().print(e.getMessage());
+		}
+		catch(Exception e){
+			response.getWriter().println(e.getMessage());
+			LOGGER.error("ocurrio un error desconocido", e);
+		}
+		
+	}
+
+}

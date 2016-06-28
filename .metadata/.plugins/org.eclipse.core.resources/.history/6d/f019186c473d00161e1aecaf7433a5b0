@@ -1,0 +1,11 @@
+package cl.ayudaProyecto.core;
+
+import java.util.Map;
+
+public class Configuracion {
+
+	private Map<String,String> data;
+	
+	
+	
+}

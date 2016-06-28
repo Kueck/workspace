@@ -1,0 +1,19 @@
+package cl.cage.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Conexion {
+
+	String db="jbossews";
+	String host="127.5.123.2:3306";
+	String user="admincJcKKl8";
+	String pass="TGVXy2Vc8PI1";
+	
+	
+	
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection conexion = DriverManager.getConnection("jdbc:mysql://192.168.0.128:3306/curso?useSSL=false",
+			"alumnos", "java123");
+	
+}

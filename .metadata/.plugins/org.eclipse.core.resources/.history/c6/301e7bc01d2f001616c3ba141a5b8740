@@ -1,8 +1,0 @@
-package cl.curso.java.builder;
-
-public class Motor {
-
-	
-	private int caballosDeFuerza;
-	
-}

@@ -1,9 +1,0 @@
-package cl.curso.java.ejemplos.usuario_playlist_cancion;
-
-public class Usuario {
-
-	private String nombre;
-	private ArrayList<Playlist> playLists;
-	
-	
-}

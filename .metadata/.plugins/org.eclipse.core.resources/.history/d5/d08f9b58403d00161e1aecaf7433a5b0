@@ -1,0 +1,9 @@
+package cl.ayudaProyecto.facade;
+
+public class UsuarioFacade {
+
+	public UsuarioFacade() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

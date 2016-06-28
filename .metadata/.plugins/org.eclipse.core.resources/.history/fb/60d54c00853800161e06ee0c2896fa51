@@ -1,0 +1,5 @@
+package cl.cage.facade;
+
+public class UsuarioFacade {
+
+}

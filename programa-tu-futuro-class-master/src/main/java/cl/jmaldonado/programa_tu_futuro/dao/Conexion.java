@@ -1,0 +1,86 @@
+/**
+ * Programa tu futuro - Fundación Emplea
+ * Universidad de Chile 
+ * Curso de Programación en java
+ */
+package cl.jmaldonado.programa_tu_futuro.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import cl.jmaldonado.programa_tu_futuro.core.Configuracion;
+import cl.jmaldonado.programa_tu_futuro.service.ServiceLocator;
+
+/**
+ * @author Juan Maldonado León
+ *
+ */
+public class Conexion {
+
+	private static Conexion _conexion;
+	private Connection connection;
+
+	/**
+	 * 
+	 */
+	private Conexion() {
+	}
+
+//	public static Conexion getInstancia() {
+//		if (_conexion == null) {
+//			try {
+//				Class.forName("com.mysql.jdbc.Driver");
+//				Connection conn = DriverManager.getConnection(
+//						"jdbc:mysql://127.5.190.2:3306/programatufuturo", 
+//						"adminiNNE8SV",
+//						"BJitaVUKhhHL");
+//				Conexion conexion = new Conexion();
+//				conexion.setConnection(conn);
+//				_conexion = conexion;
+//			} catch (Exception e) {
+//				throw new ConexionException("Ocurrio un error"
+//						+ " al conectar con la base de datos", e);
+//			}
+//		} 
+//		return _conexion;
+//		
+//	}
+	
+	
+	public static Conexion getInstancia() {
+		if (_conexion == null) {
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+				
+				Configuracion config = (Configuracion)ServiceLocator.getInstance().getContext().getBean("configuracion");
+				Connection conn = DriverManager.getConnection(
+						config.getDatos().get("urlConexion"), 
+						config.getDatos().get("nombreUsuario"),
+						config.getDatos().get("password"));
+				Conexion conexion = new Conexion();
+				conexion.setConnection(conn);
+				_conexion = conexion;
+			} catch (Exception e) {
+				throw new ConexionException("Ocurrio un error"
+						+ " al conectar con la base de datos", e);
+			}
+		} 
+		return _conexion;
+		
+	}
+
+	/**
+	 * @return the connection
+	 */
+	public Connection getConnection() {
+		return connection;
+	}
+
+	/**
+	 * @param connection the connection to set
+	 */
+	public void setConnection(Connection connection) {
+		this.connection = connection;
+	}
+
+}

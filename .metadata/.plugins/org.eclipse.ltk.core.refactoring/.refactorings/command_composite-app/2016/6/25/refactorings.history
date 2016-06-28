@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;c&apos; in &apos;cl.curso.java.command_composite.command_composite_app.Menu&apos; to &apos;command&apos;&#x0D;&#x0A;- Original project: &apos;command_composite-app&apos;&#x0D;&#x0A;- Original element: &apos;cl.curso.java.command_composite.command_composite_app.Menu.c&apos;&#x0D;&#x0A;- Renamed element: &apos;cl.curso.java.command_composite.command_composite_app.Menu.command&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;c&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java&lt;cl.curso.java.command_composite.command_composite_app{Menu.java[Menu^c" name="command" references="true" setter="false" stamp="1466000802821" textual="false" version="1.0"/>
+</session>

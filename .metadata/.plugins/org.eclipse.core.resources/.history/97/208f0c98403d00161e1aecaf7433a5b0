@@ -1,0 +1,9 @@
+package cl.ayudaProyecto.servlet;
+
+public class LoginServlet {
+
+	public LoginServlet() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

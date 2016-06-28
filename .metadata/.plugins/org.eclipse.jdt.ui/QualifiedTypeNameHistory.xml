@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.beans.ConstructorProperties"/>
-<fullyQualifiedTypeName name="java.lang.Character"/>
-<fullyQualifiedTypeName name="java.awt.JobAttributes"/>
-<fullyQualifiedTypeName name="cl.curso.java.ejemplos.Motor"/>
-<fullyQualifiedTypeName name="cl.curso.java.ejemplos.cuentasBancarias.CuentaBancaria"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 <fullyQualifiedTypeName name="java.io.PrintStream"/>
@@ -26,7 +20,6 @@
 <fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.DevolverLibroThread"/>
 <fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio6.Auto"/>
 <fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio6.SinStockException"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.Libro"/>
 <fullyQualifiedTypeName name="cl.curso.java.control_cuatro.cpoblete.ejercicio5.ReservarLibroThread"/>
 <fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio1.CuentaBancaria"/>
@@ -37,11 +30,34 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="cl.curso.java.guias.guia11_1.ejercicio2.Animal"/>
 <fullyQualifiedTypeName name="cl.curso.java.ejemplos.arraylist_contacto_telefono.Contacto"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="cl.curso.java.ejemplos.arraylist_contacto_telefono.Telefono"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
 <fullyQualifiedTypeName name="cl.curso.java.ejemplos.ejemplo_hashMap.Texto"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.BuilderAuto"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.Rueda"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.Motor"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.GPS"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.Auto"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.Director"/>
+<fullyQualifiedTypeName name="cl.curso.java.builder.BuilderAutoTesla"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="cl.curso.java.prueba_tres.cpoblete.Viaje"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="cl.curso.java.prueba_tres.cpoblete.TarjetaBip"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cl.curso.java.prueba_tres.cpoblete.PagarViaje"/>
+<fullyQualifiedTypeName name="cl.curso.java.prueba_tres.cpoblete.SinSaldoException"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="cl.curso.java.command_composite.command_composite_app.SubMenu"/>
+<fullyQualifiedTypeName name="cl.curso.java.command_composite.command_composite_app.AbrirCommand"/>
+<fullyQualifiedTypeName name="cl.curso.java.command_composite.command_composite_app.ItemMenu"/>
+<fullyQualifiedTypeName name="cl.curso.java.command_composite.command_composite_app.Command"/>
+<fullyQualifiedTypeName name="cl.curso.java.command_composite.command_composite_app.NullCommand"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="cl.cage.dao.UsuarioDao"/>
+<fullyQualifiedTypeName name="cl.cage.facade.UsuarioFacade"/>
 </qualifiedTypeNameHistroy>
